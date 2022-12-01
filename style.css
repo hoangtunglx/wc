@@ -1,0 +1,106 @@
+.xitem-grid {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	color: #ffffff;
+}
+.xitem {
+	background: #3a3d44;
+	overflow: hidden;
+	position: relative;
+	font-size: 0.95em;
+	position: relative;
+	display: block;
+	border-radius: 0.375rem;
+	box-shadow: 0 0 40px 40px rgba(255, 255, 255, 0.075) inset;
+}
+.xitem:hover {
+	background: #4b4e56;
+}
+.xitem .xitem-header {
+	display: block;
+	text-align: center;
+}
+.xitem .xitem-header .xleague {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 0 0 8px 8px;
+	display: inline-block;
+	line-height: 24px;
+	padding: 0 12px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.xitem .xitem-main {
+	padding: 15px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 130px;
+}
+.xitem .xitem-main .team {
+	text-align: center;
+	width: calc(50% - 10px - 40px);
+	flex-shrink: 0;
+}
+.xitem .xitem-main .team .team-logo {
+	display: inline-block;
+	margin: 0 auto;
+}
+.xitem .xitem-main .team .team-logo .team-logo-img {
+	width: 50px;
+}
+.xitem .xitem-main .team .xname {
+	display: flex;
+	height: 36px;
+	justify-content: center;
+	align-items: center;
+}
+.xitem .xitem-main .team .team-name {
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0;
+}
+.xitem .xitem-main .xinfo {
+	width: 80px;
+	margin: 0 10px 15px;
+	text-align: center;
+	flex-shrink: 0;
+}
+.xitem .xitem-main .xinfo > div {
+	margin-bottom: 7px;
+}
+.xitem .xitem-main .xinfo > div:last-of-type {
+	margin-bottom: 0;
+}
+.xitem .xitem-main .xinfo .result {
+	display: flex;
+	justify-content: center;
+	font-size: 1.6em;
+	color: #25ff70;
+}
+.xitem .xitem-main .xinfo .result > div {
+	font-size: 1.8em;
+	font-weight: 600;
+}
+.xitem .xitem-main .xinfo .result > div.xspace {
+	padding: 0 10px;
+	color: #8e8f92;
+}
+.xitem .xitem-main .xinfo .time-loaded {
+	font-size: 14px;
+	font-weight: 500;
+}
+.xitem .xitem-main .xinfo .status {
+	font-size: 1.6em;
+	font-weight: 500;
+}
+.xitem .xitem-main .xinfo .win {
+	color: #25ff70;
+}
+.xitem .xcards {
+	flex-shrink: 0;
+	margin-left: 5px;
+}
+.xitem .xcards .xcard {
+	margin-left: 5px;
+}
